@@ -1,0 +1,40 @@
+import 'package:match_prediction/sample/model/match_prediction_model.dart';
+
+final dummyMatchList = [
+  MatchPrediction(
+    homeTeam: "롯데",
+    awayTeam: "두산",
+    homePlayerName: "노진혁",
+    awayPlayerName: "양의지",
+    homePlayerImageUrl: "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2025/69517.jpg",
+    awayPlayerImageUrl: "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2025/76232.jpg",
+    homePercent: 55,
+    awayPercent: 45,
+    homeScoreExpected: 3.2,
+    awayScoreExpected: 4.5,
+  ),
+  MatchPrediction(
+    homeTeam: "롯데",
+    awayTeam: "두산",
+    homePlayerName: "전준우",
+    awayPlayerName: "정수빈",
+    homePlayerImageUrl: "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2025/78513.jpg",
+    awayPlayerImageUrl: "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2025/79231.jpg",
+    homePercent: 50,
+    awayPercent: 50,
+    homeScoreExpected: 3.8,
+    awayScoreExpected: 3.9,
+  ),
+  MatchPrediction(
+    homeTeam: "롯데",
+    awayTeam: "두산",
+    homePlayerName: "정보근",
+    awayPlayerName: "강승호",
+    homePlayerImageUrl: "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2025/68518.jpg",
+    awayPlayerImageUrl: "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2025/63123.jpg",
+    homePercent: 48,
+    awayPercent: 52,
+    homeScoreExpected: 2.7,
+    awayScoreExpected: 3.6,
+  ),
+];
